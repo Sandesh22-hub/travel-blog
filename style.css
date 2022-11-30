@@ -1,0 +1,65 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Banner section */
+
+.global-msg {
+  background: blue;
+  line-height: 32px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.global-content {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+/*Navbar section*/
+.nav-bar {
+  background: rgb(166, 219, 109);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+.menu ul li {
+  margin-left: 16px;
+}
+.menu ul li:hover {
+  cursor: pointer;
+}
+/* Hero section*/
+.hero {
+  min-height: 120vh;
+  background: url(img/img1.jpg) no-repeat center;
+  background-size: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  color: white;
+  width: 450px;
+  background: rgba(242, 240, 105, 0.6);
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.socials {
+  display: flex;
+  gap: 10px;
+}
+.socials a {
+  color: white;
+}
